@@ -53,7 +53,7 @@ namespace DotnetFrameworkDllExporter.Core
             using (var writer = XmlWriter.Create(this.output, settings))
             {
                 writer.WriteStartDocument();
-                writer.WriteDocType("Assembly", null, null, MainResources.AssemblyDtd);
+                writer.WriteDocType("Assembly", null, null, MainResources.AssemblyDtdString);
                 writer.WriteStartElement("Assembly");
 
                 var entityIdPrinter = new EntityIdPrinter(writer);

@@ -2,6 +2,8 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotnetFrameworkDllExporter.Core", "DotnetFrameworkDllExporter.Core\DotnetFrameworkDllExporter.Core.csproj", "{1B25CA87-4627-49AC-AAB4-20940302522B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetFrameworkExampleDll", "DotNetFrameworkExampleDll\DotNetFrameworkExampleDll.csproj", "{E90AA68B-89B6-4024-BF91-8405C7A4872F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +14,9 @@ Global
 		{1B25CA87-4627-49AC-AAB4-20940302522B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1B25CA87-4627-49AC-AAB4-20940302522B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1B25CA87-4627-49AC-AAB4-20940302522B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E90AA68B-89B6-4024-BF91-8405C7A4872F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E90AA68B-89B6-4024-BF91-8405C7A4872F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E90AA68B-89B6-4024-BF91-8405C7A4872F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E90AA68B-89B6-4024-BF91-8405C7A4872F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
