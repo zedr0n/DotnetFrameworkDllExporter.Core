@@ -28,8 +28,8 @@ namespace DotnetFrameworkDllExporter.Core
 <!ELEMENT Class (Interface|Class|Enum|Struct|Field|Property|Method|Constructor|GenericParameter|BaseClass|InterfaceImplemented)*>
     <!ATTLIST Class entityId CDATA #REQUIRED>
     <!ATTLIST Class name CDATA #REQUIRED>
-    <!ATTLIST Class BaseClass CDATA "">
-    <!ATTLIST Class InterfaceImplemented CDATA "">
+    <!ATTLIST Class BaseClass CDATA """">
+    <!ATTLIST Class InterfaceImplemented CDATA """">
     <!ELEMENT GenericParameter (#PCDATA)>
         <!ATTLIST GenericParameter entityId CDATA #REQUIRED>
         <!ATTLIST GenericParameter name CDATA #REQUIRED>
